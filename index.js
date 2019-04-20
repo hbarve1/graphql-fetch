@@ -21,7 +21,7 @@ async function query(URL, { query }) {
 }
 
 async function mutation(URL, { mutation, variables }) {
-  const result = await graphqlServer(URL, { mutation, variables });
+  const result = await graphqlServer(URL, { query: mutation, variables });
 
   return result;
 }
