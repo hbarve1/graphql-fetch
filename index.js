@@ -25,3 +25,8 @@ async function mutation(URL, { mutation, variables }) {
 
   return result;
 }
+
+module.exports = {
+  query,
+  mutation,
+};
