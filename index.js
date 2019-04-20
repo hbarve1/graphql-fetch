@@ -1,7 +1,7 @@
 const fetch = require("cross-fetch");
 
 async function graphqlServer(URL, payload) {
-  const response = await fetch(url, {
+  const response = await fetch(URL, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
