@@ -1,0 +1,26 @@
+{
+  "name": "@hbarve1/graphql-fetch",
+  "version": "1.0.0",
+  "description": "This library contains function to send query or mutation request to graphQL server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbarve1/graphql-fetch.git"
+  },
+  "keywords": [],
+  "author": "Himank Honey Barve <hbarve1592@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbarve1/graphql-fetch/issues"
+  },
+  "homepage": "https://github.com/hbarve1/graphql-fetch#readme",
+  "dependencies": {
+    "cross-fetch": "3.0.2"
+  },
+  "devDependencies": {
+    "prettier": "1.17.0"
+  }
+}
